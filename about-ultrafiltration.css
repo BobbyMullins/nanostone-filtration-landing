@@ -1,0 +1,48 @@
+/* --- Water Ultrafiltration Page --- */
+
+.light-gray-section {
+    background-color:#e8f2f6; 
+    margin-left: -5%;
+    padding: 5%; 
+    width: 110%;      
+}
+
+.light-weight {
+    font-weight: 100; 
+}
+
+.newsletter-box {
+    background-color: #215594; 
+}
+
+.case-studies-box {
+    background-color: #00ade5; 
+}
+
+.newsletter-box, .case-studies-box {
+    color: #fff;
+    padding: 7.5%; 
+    margin: 0 7.5% 0 7.5%; 
+    width: 85%;     
+}
+
+.newsletter-box .button, .case-studies-box .button {
+    margin: 0 5% 0 5%; 
+	width: 90%; 
+}
+
+.video-link-box {
+    color: #fff; 
+}
+
+.video-link-box .columns {
+	background-color: #215594;
+    padding: 2.5%; 
+}
+
+@media only screen and (max-width: 639px) {
+    .video-link-box .button { margin: 0 5%; width: 90%; } 
+    .newsletter-box, .case-studies-box { padding: 2.5%; margin: 2.5% auto; width: 100%; }
+    .video-link-box img, .newsletter-box img, .case-studies-box img { margin: 0 7.5%; width: 85%;}
+    .video-link-box p, .newsletter-box p, .case-studies-box p { text-align: center; }
+}
